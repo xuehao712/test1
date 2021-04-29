@@ -31,6 +31,8 @@ class SecurePay extends AbstractApi
             'currency',
             'settleCurrency',
             'vendor',
+            'ipnUrl',
+            'callbackUrl',
             'terminal',
             'reference',
         ));
@@ -40,6 +42,7 @@ class SecurePay extends AbstractApi
             'description',
             'ipnUrl',
             'note',
+            'reference',
             'paymentCount',
             'frequency',
             'customerNo',
