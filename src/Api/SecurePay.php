@@ -152,13 +152,13 @@ class SecurePay extends AbstractApi
      */
     public function setVendor($vendor)
     {
-        if (!\in_array($this->params['vendor'], array(
-            'alipay', 'wechatpay', 'unionpay', 'creditcard', 'paypal', 'venmo',
-            'truemoney', 'alipay_hk', 'tng', 'gcash', 'dana', 'kakaopay', 'bkash', 'easypaisa',
-            'googlepay', 'applepay'
-        ), true)) {
-            throw new InvalidParamException('The param `vender` is invalid in securepay');
-        }
+        // if (!\in_array($this->params['vendor'], array(
+        //     'alipay', 'wechatpay', 'unionpay', 'creditcard', 'paypal', 'venmo',
+        //     'truemoney', 'alipay_hk', 'tng', 'gcash', 'dana', 'kakaopay', 'bkash', 'easypaisa',
+        //     'googlepay', 'applepay'
+        // ), true)) {
+        //     throw new InvalidParamException('The param `vender` is invalid in securepay');
+        // }
 
         $this->params['vendor'] = $vendor;
 
