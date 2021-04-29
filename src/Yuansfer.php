@@ -88,7 +88,7 @@ class Yuansfer
     /**
      * @var string api mode
      */
-    private $mode;
+    public $mode;
 
     /**
      * Config constructor.
