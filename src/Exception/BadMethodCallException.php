@@ -3,7 +3,7 @@
 namespace Yuansfer\Exception;
 
 
-class BadMethodCallException extends \Exception implements YuansferException
+class BadMethodCallException extends \BadMethodCallException implements YuansferException
 {
 
 }

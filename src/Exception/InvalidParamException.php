@@ -3,7 +3,7 @@
 namespace Yuansfer\Exception;
 
 
-class InvalidParamException extends \Exception implements YuansferException
+class InvalidParamException extends \InvalidArgumentException implements YuansferException
 {
 
 }

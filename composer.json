@@ -4,6 +4,8 @@
   "license": "Apache-2.0",
   "keywords": ["yuansfer", "sdk"],
   "homepage": "https://www.yuansfer.com/",
+  "type": "library",
+
   "autoload": {
     "psr-4": {
       "Yuansfer\\": "src/"

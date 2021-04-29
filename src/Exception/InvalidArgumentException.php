@@ -3,7 +3,7 @@
 namespace Yuansfer\Exception;
 
 
-class InvalidArgumentException extends \Exception implements YuansferException
+class InvalidArgumentException extends \InvalidArgumentException implements YuansferException
 {
 
 }
